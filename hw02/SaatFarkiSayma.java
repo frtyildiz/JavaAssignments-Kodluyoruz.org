@@ -6,7 +6,7 @@ public class SaatFarkiSayma {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         System.out.print("Count: ");
-        System.out.println((countingMin(s.nextLine()) + " minutes.")); // For Example: 11:11am-11:11pm
+        System.out.println((countingMin(s.nextLine()) + " minutes.")); // Ör: 11:11am-11:11pm
     }
     public static int countingMin(String str)
     {
