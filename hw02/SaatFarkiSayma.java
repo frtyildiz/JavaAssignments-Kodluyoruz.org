@@ -2,13 +2,13 @@ package hw02;
 
 import java.util.Scanner;
 
-public class CountingMinutes {
+public class SaatFarkiSayma {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         System.out.print("Count: ");
-        System.out.println((countingMinutes(s.nextLine()) + " minutes.")); // For Example: 11:11am-11:11pm
+        System.out.println((countingMin(s.nextLine()) + " minutes.")); // For Example: 11:11am-11:11pm
     }
-    public static int countingMinutes(String str)
+    public static int countingMin(String str)
     {
         String[] times = str.split("-");
 

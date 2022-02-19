@@ -2,7 +2,7 @@ package hw03;
 
 import java.util.Scanner;
 
-public class Palindrome {
+public class Palindrom {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         System.out.print("Entry: ");
